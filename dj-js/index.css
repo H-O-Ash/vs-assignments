@@ -1,0 +1,12 @@
+*{
+    font-size: 50px;   
+    margin: 50px;
+    border: 50px
+}
+#dj{
+    display:grid;
+    background-color:blueviolet;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
