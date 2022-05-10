@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My Airline</title>
+</head>
+<body>
+    <h1>Welcome to Imperial Airlines!</h1>
+    <p>Please provide us with the following to better serve you!</p>
+    <form name="passengerForm">
+        First Name: <input type="text" id="firstName">
+        <br>
+        Last Name: <input type="text" id="lastName">
+        <br>
+        Age: <input type="number" id="age">
+        <br>
+        <input type="radio" name="gender" value="Male"> Male
+        <br>
+        <input type="radio" name="gender" value="Female"> Female
+        <br>
+        Location: <select name="location">
+                <option value="Roanoke">Roanoke</option>
+                <option value="Lynchburg">Lynchburg</option>
+                <option value="Blacksburg">Blacksburg</option>
+        </select>
+        Do you have any special requests?
+        <br>
+        <div class="requests">
+            <input type="checkbox" name="request" value="Vegan"> Vegan
+            <br>
+            <input type="checkbox" name="request" value="Vegetarian"> Vegetarian
+            <br>
+            <input type="checkbox" name="request" value="I'm calling the police..."> Cannibal
+        </div>
+        <br>
+        <br>
+        <button id="submit">Submit</button>
+
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

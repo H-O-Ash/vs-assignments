@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#zen-body{
+    font-family:monospace;
+	color: #555753; 
+	margin: 0; 
+	padding: 0;
+}
+#first{
+    display:grid;
+    grid-row: 1;
+    background-image: url(koi.jpg);
+    width: 100%;
+    height: 225px;
+    font-size: ;
+    text-align: center;
+    color:aliceblue;
+    /* background-color: aquamarine; */
+}
+#second{
+    grid-row: 2
+}

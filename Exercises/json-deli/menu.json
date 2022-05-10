@@ -1,0 +1,93 @@
+{
+    "appetizers": [
+        {
+            "name": "Cheese Sticks",
+            "ingredients": ["Breading", "Cheese"],
+            "description": "String cheese dipped in breading, fried to perfection, served with marinara"
+        },
+        {
+            "name": "Onion Rings",
+            "ingredients": ["Breading", "Onions"],
+            "description": "An onion cut up into rings, dipped in breading, and fried to perfection"
+        },
+        {
+            "name": "Fries",
+            "ingredients": ["Potatoes"],
+            "description": "Potatoes cut into slices and deep fried to golden brown"
+        }
+    ],
+    "cold sandwiches": [
+        {
+            "name": "turkey cold",
+            "ingredients": ["Turkey", "American cheese", "Mayonaise", "bread"],
+            "description": "A cold turkey sandwich, served on your choice of bread."
+        }, 
+        {
+            "name": "Chicken cold",
+            "ingredients": [],
+            "description": "A cold chicken sandwich, served on your choice of bread."
+        },
+        {
+            "name": "Roast Beef cold",
+            "ingredients": ["Roast beef", "American cheese", "Mayonaise", "bread"],
+            "description": "A cold roast beef sanwich served on your choice of bread."
+        }],
+    "hot sandwiches": [
+        {
+            "name": "turkey hot",
+            "ingredients": ["Turkey", "American cheese", "Mayonaise", "bread"],
+            "description": "A toasted turkey sandwich served on your choice of bread"
+        }, 
+        {
+            "name": "Chicken hot",
+            "ingredients": ["chicken", "American cheese", "Mayonaise", "bread"],
+            "description": "A toasted chicken sandwich served on your choice of bread"
+        }, 
+        {
+            "name": "Roast Beef hot",
+            "ingredients": ["roast beef", "American cheese", "Mayonaise", "bread"],
+            "description": "A toasted roast beef sandwich served on your choice of bread"
+        }, 
+        {
+            "name": "Philly hot",
+            "ingredients": ["ribeye steak", "provolone cheese", "Mayonaise", "bread"],
+            "description": "A fresh philly cheesesteak sandwich served on your choice of bread"
+        }],
+    "desserts": [
+        {
+            "name": "Cheese Cake",
+            "ingredients": ["cream cheese", "sugar", "sour cream", "choice of flavor", "eggs"],
+            "description": "A slice of cheese cake served with your choice of fruit"
+        }, 
+        {
+            "name": "Ice Cream",
+            "ingredients": ["heavy cream", "whole milk", "sugar", "salt", "egg", "choice of flavor"],
+            "description": "A bowl of our homemade ice cream served with your choice of flavoring."
+        }, 
+        {
+            "name": "Cookie",
+            "ingredients": ["sugar", "flour", "butter", "eggs", "vanilla", "baking soda"],
+            "description": "A light fluffy sugar cookie baked fresh everyday."
+        }],
+    "drinks": [
+        {
+            "name": "Dr Pepper",
+            "ingredients": ["carbonated water", "High fructose corn syrup", "caramel color", "phosphoric acid", "artificial and natural flavors", "sodium benzoate"],
+            "description": "Fresh poured Dr Pepper straight from out fountain"
+        }, 
+        {
+            "name": "Coke",
+            "ingredients": ["carbonated water", "High fructose corn syrup", "caramel color", "phosphoric acid", "natural flavors", "caffeine"],
+            "description": "Fresh poured Coke straight from out fountain"
+        }, 
+        {
+            "name": "Sprite",
+            "ingredients": ["Carbonated water", "sugar", "citric acid", "sweeteners", "acidity regulator", "Natural lemon and lime flavors"],
+            "description": "Fresh poured Sprite straight from out fountain"
+        }, 
+        {
+            "name": "Lemonade",
+            "ingredients": ["Lemons", "Water", "Sugar", "A secret ingredient"],
+            "description": "Homemade lemonade made using our secret recipe"
+        }]
+}

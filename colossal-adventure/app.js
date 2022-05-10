@@ -74,13 +74,12 @@ while (running) {
         endGame()
         break;
     } else if (walk === 'p') {
-        inventory()
+        inventori()
     }
     else {
         wrongAnswer()
-        continue;
     }
-    function inventory() {
+    function inventori() {
         console.log("Name: " + name)
         console.log("Your current HP is: " + health)
         console.log("Inventory: " + inventory)
@@ -106,7 +105,7 @@ while (running) {
         console.log("You defeated the " + enemy + " amazing work!");
         health += 20;
         console.log("For all your hard work, heres some extra health and a gift ")
-        console.log(health + " health points were added alog with a special gift.")
+        console.log("You now have " + health + " health along with a special gift.")
         inventory += ("Giant Gem Stone");
     }
 }

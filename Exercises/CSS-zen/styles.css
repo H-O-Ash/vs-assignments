@@ -1,0 +1,11 @@
+.page-wrapper{
+    width: 100%;
+    grid-template-rows: repeat(12, 1fr)
+}
+.intro{
+    grid-row: 1;
+    background-imag;
+}
+.main-supporting{
+    grid-row: 3
+}

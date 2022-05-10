@@ -18,8 +18,8 @@ function createSubItem(e){
         e.preventDefault();
         subItem.remove();
     })
-    edit.addEventListener('click', function(event){
-        event.preventDefault();
+    edit.addEventListener('click', function(e){
+        e.preventDefault();
         if (edit.textContent == "Edit"){
             div.contentEditable = true;
             edit.textContent = "Save"

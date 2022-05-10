@@ -1,0 +1,22 @@
+*{
+    margin: 10px;
+}
+form[name="add"]{
+    display:grid;
+    background-color: chartreuse;
+}
+form[name="sub"]{
+    display:grid;
+    background-color: brown
+}
+form[name="mult"]{
+    display: grid;
+    background-color: wheat;
+}
+input{
+    background-color: aquamarine;
+}
+button{
+    background-color:coral;
+    font-size: 15px;
+}

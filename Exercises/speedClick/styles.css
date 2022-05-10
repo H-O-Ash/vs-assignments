@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display: grid;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-size: 500px;
+    background-color:aquamarine
+}
+button{
+    font-size: 30px
+
+}
