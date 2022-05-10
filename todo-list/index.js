@@ -19,16 +19,16 @@ function listData(data){
         checkbox.addEventListener("change", function(e){
             e.preventDefault();
             if(checkbox.checked){
-                completed(e)
+                completed(data[i]._id)
                 h1.id = "strike"
             } else {
-                notComplete(e)
+                notComplete(data[i]._id)
                 h1.id = ""
             }
         })
         const complete = document.createElement('p')
         complete.textContent = "Completed? "
-        delete(data[i])
+        // delete(data[i])
         document.getElementById('todo-list').appendChild(complete)
         const deleteButton = document.createElement('button')
         deleteButton.textContent = "delete"
